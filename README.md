@@ -2,7 +2,7 @@ Student_apis
 To run the api
 Clone the repo
 
-- url :https://github.com/INDUDHA/Student_apis.git
+- url :https://github.com/INDUDHA/Student-Api.git
 - cd Student_details_api
 - then run npm run dev command in integrated terminal
 - Api url : http://localhost:8000/addStudentDetails
