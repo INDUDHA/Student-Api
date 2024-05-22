@@ -53,9 +53,9 @@ app.post("/addStudentDetails", async (req, res) => {
     let page_size = parseInt(req.body.page_size) || 10;
     let startIndex = (page_number - 1) * page_size;
 
-    console.log("req " + JSON.stringify(req.files.files.name));
-    console.log("page_no " + req.body.page_number);
-    console.log("pagesize " + req.body.page_size);
+    // console.log("req " + JSON.stringify(req.files.files.name));
+    // console.log("page_no " + req.body.page_number);
+    // console.log("pagesize " + req.body.page_size);
 
     if (req.files.files.name == "") {
       res.status(500).send("Please Upload the xlsv file");
